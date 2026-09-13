@@ -1,0 +1,6 @@
+{
+  "name": "ApexFX",
+  "description": "Professional Forex Trading Journal with real-time risk metrics, trade logging, performance analytics, and strategic playbooks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

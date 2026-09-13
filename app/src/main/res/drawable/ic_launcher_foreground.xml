@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Hexagon Frame Top-Right & Bottom-Right -->
+    <path
+        android:pathData="M 48,27.5 L 54,24 L 78,38 L 78,70 L 68,76"
+        android:strokeColor="#78889B"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Hexagon Frame Bottom-Left & Top-Left -->
+    <path
+        android:pathData="M 59,81.5 L 54,84 L 30,70 L 30,38 L 40,32"
+        android:strokeColor="#78889B"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Left Candlestick (Green): Vertical Wick -->
+    <path
+        android:pathData="M 44,22 L 44,79"
+        android:strokeColor="#00A86B"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="square"
+        android:fillColor="#00000000" />
+
+    <!-- Left Candlestick (Green): Hollow Body -->
+    <path
+        android:pathData="M 38,36 L 50,36 L 50,65 L 38,65 Z"
+        android:strokeColor="#00A86B"
+        android:strokeWidth="3.5"
+        android:strokeLineJoin="miter"
+        android:fillColor="#0E172A" />
+
+    <!-- Right Candlestick (Blue): Vertical Wick -->
+    <path
+        android:pathData="M 63,29 L 63,86"
+        android:strokeColor="#2563EB"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="square"
+        android:fillColor="#00000000" />
+
+    <!-- Right Candlestick (Blue): Hollow Body -->
+    <path
+        android:pathData="M 57,43 L 69,43 L 69,72 L 57,72 Z"
+        android:strokeColor="#2563EB"
+        android:strokeWidth="3.5"
+        android:strokeLineJoin="miter"
+        android:fillColor="#0E172A" />
+
+</vector>
